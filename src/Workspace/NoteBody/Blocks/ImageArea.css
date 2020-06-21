@@ -1,0 +1,11 @@
+.ImageArea {
+    width: 60%;
+    align-items: center;
+    text-align: center;
+    border-top:3px solid  grey;
+  border-right:thin solid rgb(204, 194, 194);
+  border-bottom:3px solid  grey;
+  border-left:thin solid  rgb(204, 194, 194);
+  box-shadow:0px 1px 1px 1px rgb(204, 194, 194);
+    background-color: rgb(138, 64, 75);
+  }

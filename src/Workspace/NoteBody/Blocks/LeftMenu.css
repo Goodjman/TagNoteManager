@@ -1,0 +1,10 @@
+.LeftMenu {
+    width: 20%;
+    background-color: rgb(233, 233, 215);
+    border-top:thin solid  rgb(204, 194, 194);
+  border-right:thin solid rgb(204, 194, 194);
+  border-bottom:0;
+  border-left:thin solid  rgb(204, 194, 194);
+  box-shadow:0px 1px 1px 1px rgb(204, 194, 194);
+  text-align: center;
+  }
