@@ -4,9 +4,9 @@ class LeftMenu extends Component {
   render(){
       return(
         <nav className='LeftMenu'>
-            Interact with tags
-            <div><button>Delete Tag</button></div>
-            <div><button>Rename Tag</button></div>
+            
+            <div><button className="delete">Delete Tag</button></div>
+            <div><button className="rename">Rename Tag</button></div>
 
       </nav>
       )

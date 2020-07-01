@@ -1,23 +1,23 @@
-import React, { Component,Fragment }  from "react";
+import React, { Component }  from "react";
 import './Header.css';
-import ReactDropzone from 'react-dropzone';
+
 import ImageUploader from './ImageUploader'
 //render from react dom
 
 class Header extends Component {
-//     state={
+//      state={
 //         files:[]
-//     }
-//   // fileSelectedHandler = (event) => {
-//   //   this.setState({
-//   //       selectedFile:event.target.files[0]
-//   //   })
-//  // };
-//   onPreviewDrop = (files) => {
-//     this.setState({
-//       files: this.state.files.concat(files),
-//      });
-//   }
+//      }
+//  fileSelectedHandler = (event) => {
+//    this.setState({
+//        selectedFile:event.target.files[0]
+//   })
+//  };
+//    onPreviewDrop = (files) => {
+//      this.setState({
+//        files: this.state.files.concat(files),
+//       });
+//    }
 
   render() {
     return (

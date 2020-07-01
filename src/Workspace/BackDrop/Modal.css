@@ -1,0 +1,33 @@
+.Modal {
+    position: fixed;
+    z-index: 500;
+    background-color: rgb(221, 219, 240);
+    width: 70%;
+    height:20%;
+    border: 2px solid #ccc;
+    box-shadow: 2px 2px 2px black;
+    padding: 16px;
+   
+    left: 15%;
+    top: 30%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+    text-align: center;
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: larger;
+
+}
+button{
+    padding:3px;
+    margin:8px;
+}
+input{
+    margin-top: 20px;
+}
+@media (min-width: 600px) {
+    .Modal {
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+}

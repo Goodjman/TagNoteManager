@@ -1,30 +1,36 @@
 import React,{Component} from "react";
-import BackDrop from './Workspace/BackDrop/BackDrop';
+
 import NoteBody from './Workspace/NoteBody/NoteBody';
 import Header from './Workspace/Header/Header';
-// import previewUrl from './Workspace/Header/ImageUploader'
+import Modal from './Workspace/BackDrop/Modal';
 
-// let ImageStyle = {
-//   backgroundImage: `url(${previewUrl})`
-// };
 class App extends Component {
+  state={
+    modalToggle: false
+  }
   
-
-
-
-  
+  modalHandler = (e) => {
+    e.preventDefault();
+    this.setState({
+      modalToggle: !this.state.modalToggle
+    })
+  }
   render(){
   return (
     <div>
-     <Header/>
-     <BackDrop/>
-     <NoteBody >
-
-
-     </NoteBody>
+      <Header />
+      <Modal show={this.state.modalToggle} modalClosed={this.modalHandler}>
+        <div style={{ color: "black" }}>Enter your Note!</div>
+      </Modal>
+      <NoteBody>
+        
+      </NoteBody>
+       <button onClick ={this.modalHandler}></button> {/*кнопочка внизу страницы чтобы появился модуль записи заметки)) */}
     </div>
   );
   }
 }
 
 export default App;
+
+/* задание не закончено! еще много что нужно делать, но знаний пока не хватает*/

@@ -1,8 +1,14 @@
-.BackDrop{
-    visibility: hidden;
+.BackDrop {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
-#backdrop {
+/* #backdrop {
     position: fixed;
     width: 100%;
     height: 100vh;
@@ -25,7 +31,7 @@
     flex-direction: column;
   }
   
-  /*анимация*/
+  /*анимация*//*
   @keyframes fade-slide-in {
     from {
       transform: translateY(10rem);
@@ -33,4 +39,4 @@
     to {
       transform: translateY(0);
     }
-  }
+  } */

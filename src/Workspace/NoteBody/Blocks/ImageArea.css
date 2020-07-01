@@ -1,4 +1,6 @@
 .ImageArea {
+     /* background-image: url("../old.jpg");  якобы бэкграунд поставился при переносе */  
+   background-size: cover;
     width: 60%;
     align-items: center;
     text-align: center;
@@ -7,5 +9,5 @@
   border-bottom:3px solid  grey;
   border-left:thin solid  rgb(204, 194, 194);
   box-shadow:0px 1px 1px 1px rgb(204, 194, 194);
-    background-color: rgb(138, 64, 75);
+    background-color: rgb(255, 255, 255);
   }

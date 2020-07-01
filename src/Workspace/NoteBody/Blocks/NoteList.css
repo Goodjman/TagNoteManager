@@ -1,10 +1,30 @@
 .NoteList {
+  padding-top: 15px;
     width: 20%;
     border-top:thin solid  rgb(204, 194, 194);
     border-right:thin solid rgb(204, 194, 194);
     border-bottom:0;
     border-left:thin solid  rgb(204, 194, 194);
     box-shadow:0px 1px 1px 1px rgb(204, 194, 194);
-    background-color: rgb(194, 212, 235);
+    background-color: rgb(213, 219, 228);
     text-align: center;
+  }
+
+  .NoteList button {
+    font:700 1.2rem 'Roboto Slab', sans-serif;
+    padding: 1rem 2rem;
+    background: #ecdacb;/*f67722*/
+    border: 1px solid d64960;
+    color: black;
+    border-radius: 50px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.26);
+    cursor: pointer;
+  }
+  
+  .NoteList button:hover,
+  .NoteList button:active {
+    background: #757268f1;
+    border-color: #999071;
+    color: #ffffff;
+    
   }
